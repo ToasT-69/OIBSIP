@@ -1,2 +1,2 @@
 # OIBSIP
-This repository is dedicated to the taks of the Oasis Infobyte Internship - April Phase 2.
+This repository is dedicated to the tasks of the Oasis Infobyte Internship - April Phase 2.
