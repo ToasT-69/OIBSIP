@@ -1,0 +1,129 @@
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+#display {
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 48px;
+    text-align: right;
+    width: 300px;
+    height: 80px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aaa;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 24px;
+    background-color: #f7f7f7;
+    color: #333;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #aaa;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #333;
+    color: #fff;
+}
+</style>
+
+<script>
+// Get the display element
+const display = document.getElementById('display');
+
+// Initialize the calculator variables
+let operand1 = null;
+let operand2 = null;
+let operator = null;
+let result = null;
+
+// Function to update the display
+function updateDisplay
+</script>
+
+<head>
+    <title>Basic Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Basic Calculator</h1>
+    </header>
+
+    <main>
+        <div id="display">0</div>
+
+        <div id="buttons">
+            <button class="operator" id="add">+</button>
+            <button class="operator" id="subtract">-</button>
+            <button class="operator" id="multiply">*</button>
+            <button class="operator" id="divide">/</button>
+
+            <button class="number" id="seven">7</button>
+            <button class="number" id="eight">8</button>
+            <button class="number" id="nine">9</button>
+
+            <button class="number" id="four">4</button>
+            <button class="number" id="five">5</button>
+            <button class="number" id="six">6</button>
+
+            <button class="number" id="one">1</button>
+            <button class="number" id="two">2</button>
+            <button class="number" id="three">3</button>
+
+            <button class="number" id="zero">0</button>
+            <button id="decimal">.</button>
+            <button id="clear">C</button>
+            <button id="equals">=</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Basic Calculator, Pratyush Mondal, OIBSIP April Phase 2 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
