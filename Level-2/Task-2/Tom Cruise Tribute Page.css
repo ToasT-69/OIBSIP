@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+	padding: 0 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+h1 {
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+li {
+	margin: 0 10px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	margin-top: 120px;
+	padding: 20
+
+</style>
+<head>
+	<title>Tom Cruise Tribute Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Tom Cruise</h1>
+		<nav>
+			<ul>
+				<li><a href="#bio">Biography</a></li>
+				<li><a href="#movies">Movies</a></li>
+				<li><a href="#awards">Awards</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="bio">
+			<h2>Biography</h2>
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tom_Cruise_by_Gage_Skidmore_2.jpg/220px-Tom_Cruise_by_Gage_Skidmore_2.jpg" alt="Tom Cruise">
+			<p>Tom Cruise is an American actor and producer. He was born on July 3, 1962 in Syracuse, New York. He started his career in the early 1980s and became a household name in the 1990s with his roles in movies such as Top Gun, Rain Man, and Jerry Maguire.</p>
+			<p>Cruise has been nominated for three Academy Awards and has won three Golden Globe Awards. He is also known for his work as a producer, having produced movies such as Mission: Impossible and War of the Worlds.</p>
+		</section>
+		
+		<section id="movies">
+			<h2>Movies</h2>
+			<ul>
+				<li>Top Gun (1986)</li>
+				<li>Rain Man (1988)</li>
+				<li>A Few Good Men (1992)</li>
+				<li>Jerry Maguire (1996)</li>
+				<li>Mission: Impossible (1996)</li>
+				<li>Minority Report (2002)</li>
+				<li>War of the Worlds (2005)</li>
+				<li>Edge of Tomorrow (2014)</li>
+				<li>Mission: Impossible – Fallout (2018)</li>
+			</ul>
+		</section>
+		
+		<section id="awards">
+			<h2>Awards</h2>
+			<ul>
+				<li>Academy Awards</li>
+				<ul>
+					<li>Nominated: Best Actor in a Leading Role – Born on the Fourth of July (1990)</li>
+					<li>Nominated: Best Actor in a Leading Role – Jerry Maguire (1996)</li>
+					<li>Nominated: Best Supporting Actor – Magnolia (1999)</li>
+				</ul>
+				<li>Golden Globe Awards</li>
+				<ul>
+					<li>Won: Best Actor in a Motion Picture – Drama – Born on the Fourth of July (1990)</li>
+					<li>Won: Best Actor in a Motion Picture – Comedy or Musical – Jerry Maguire (1996)</li>
+					<li>Won: Best Supporting Actor – Magnolia (1999)</li>
+				</ul>
+			</ul>
+		</section>
+	</main>
+	
+	<footer>
+		<p>Tom Cruise Tribute Page, Pratyush Mondal, OIBSIP April Phase 2 2023</p>
+	</footer>
+</body>
+</html>
